@@ -169,7 +169,7 @@
 // Essential Styles
 .onepress-menu {
   float: right;
-  @extend .clearfix;
+  @extend .clearfix !optional;
   ul {
     position: absolute;
     display: none;
