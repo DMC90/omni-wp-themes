@@ -33,13 +33,16 @@
 /* Search
 ------------------------------*/
 .sidebar .widget .search-form{
+        > label {
+                display: block;
+        }
 	.search-field {
 		width: 100% !important;
 		@include rem('padding', 10px 15px);
 	}
 	.search-submit {
 		padding: 12px 23px 12px;
-		width: 93%;
+		width: 100%;
 	}
 }
 
