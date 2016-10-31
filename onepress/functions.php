@@ -51,6 +51,7 @@ if ( ! function_exists( 'onepress_setup' ) ) :
 		add_image_size( 'onepress-blog-small', 300, 150, true );
 		add_image_size( 'onepress-small', 480, 300, true );
 		add_image_size( 'onepress-medium', 640, 400, true );
+                add_image_size('blog-thumbnail-580', 580, 9999);
 
 		/*
 		 * This theme uses wp_nav_menu() in one location.
