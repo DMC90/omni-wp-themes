@@ -26,7 +26,7 @@
                     <a href="<?php echo esc_url( get_permalink() ); ?>">
                         <?php
                         if ( has_post_thumbnail( ) ) {
-                               the_post_thumbnail('blog-thumbnail-580');
+                               the_post_thumbnail('blog-thumbnail-600');
                         } else {
                                 echo '<img alt="" src="'. get_template_directory_uri() . '/assets/images/placholder2.png' .'">';
                         }

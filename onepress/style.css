@@ -3056,9 +3056,8 @@ h6, p, ul, ol, dl, blockquote, pre {
 /* line 760, assets/sass/_sections.scss */
 .section-news .list-article-thumb, .archive .list-article-thumb, .blog .list-article-thumb {
   float: left;
-  margin-right: 30px;
 }
-/* line 763, assets/sass/_sections.scss */
+/* line 762, assets/sass/_sections.scss */
 .section-news .list-article-thumb a img:hover, .archive .list-article-thumb a img:hover, .blog .list-article-thumb a img:hover {
   opacity: 0.8;
 }
@@ -3077,17 +3076,17 @@ h6, p, ul, ol, dl, blockquote, pre {
     margin-bottom: 30px;
     display: block;
   }
-  /* line 775, assets/sass/_sections.scss */
+  /* line 774, assets/sass/_sections.scss */
   .section-news .list-article-thumb img, .archive .list-article-thumb img, .blog .list-article-thumb img {
     width: 100%;
   }
 }
-/* line 780, assets/sass/_sections.scss */
+/* line 779, assets/sass/_sections.scss */
 .section-news .list-article-content, .archive .list-article-content, .blog .list-article-content {
   float: none;
   overflow: hidden;
 }
-/* line 784, assets/sass/_sections.scss */
+/* line 783, assets/sass/_sections.scss */
 .section-news .list-article-meta, .archive .list-article-meta, .blog .list-article-meta {
   font-size: 11px;
   font-weight: bold;
@@ -3095,20 +3094,21 @@ h6, p, ul, ol, dl, blockquote, pre {
   letter-spacing: 1.2px;
   margin-bottom: 10px;
 }
-/* line 792, assets/sass/_sections.scss */
+/* line 791, assets/sass/_sections.scss */
 .section-news .entry-title, .archive .entry-title, .blog .entry-title {
   font-size: 22px;
   line-height: 1.5;
 }
-/* line 795, assets/sass/_sections.scss */
+/* line 794, assets/sass/_sections.scss */
 .section-news .entry-title a:hover, .archive .entry-title a:hover, .blog .entry-title a:hover {
   text-decoration: none;
 }
-/* line 799, assets/sass/_sections.scss */
+/* line 798, assets/sass/_sections.scss */
 .section-news .entry-excerpt p, .archive .entry-excerpt p, .blog .entry-excerpt p {
   margin-top: 20px;
   margin-bottom: 0px;
   float: left;
+  text-align: justify;
 }
 
 /* line 806, assets/sass/_sections.scss */

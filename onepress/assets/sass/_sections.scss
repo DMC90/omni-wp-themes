@@ -759,7 +759,6 @@
 	}
 	.list-article-thumb {
 		float: left;
-		margin-right: 30px;
 		a img:hover {
 			opacity: 0.8;
 		}
@@ -800,6 +799,7 @@
                 margin-top: 20px;
 		margin-bottom: 0px;
                 float: left;
+                text-align: justify;
 	}
 }
 
