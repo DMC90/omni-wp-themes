@@ -36,26 +36,22 @@
 	.left-sidebar .content-area {
 		float: right;
 		padding-left: 39px;
-		border-left: 1px solid $border;
 		margin-right: 1px;
 		width: percentage( 7000px / $grid ); //680px
 	}
 
 	.left-sidebar .sidebar {
 		padding-right: 39px;
-		border-right: 1px solid $border;
 		margin-right: -1px;
 	}
 
 	.right-sidebar .content-area {
 		padding-right: 39px;
-		border-right: 1px solid $border;
 		width: percentage(700px / $grid ); //680px
 	}
 
 	.right-sidebar .sidebar {
 		padding-left: 39px;
-		border-left: 1px solid $border;
 		margin-left: -1px;
 	}
 }
