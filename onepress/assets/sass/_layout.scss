@@ -23,7 +23,7 @@
 	width: 100%;
 	float: none;
 	@include for(medium-screens) {
-		width: percentage( 280px / $grid ); // 300px
+		width: percentage( 410px / $grid ); // 300px
 		float: left;
 	}
 }
@@ -37,7 +37,7 @@
 		float: right;
 		padding-left: 39px;
 		margin-right: 1px;
-		width: percentage( 7000px / $grid ); //680px
+		width: percentage( 700px / $grid ); //680px
 	}
 
 	.left-sidebar .sidebar {
@@ -54,4 +54,9 @@
 		padding-left: 39px;
 		margin-left: -1px;
 	}
+}
+
+// Custom code to disable dots and play/pause photo gallery plugin
+.bwg_slideshow_dots_thumbnails_0 {
+       display: none;
 }
