@@ -1,6 +1,8 @@
 // main: style.scss
 
 .sidebar .widget {
+        padding-top: 20px;
+        border-top: 1px solid $border;
 	margin-bottom: 40px;
 	.widget-title {
 		font-size: 15px;
@@ -52,15 +54,13 @@
 	ul {
 		margin-top: 25px;
 		li {
-			margin-bottom: 20px;
-			padding-bottom: 20px;
-			border-bottom: 1px solid $border;
+			margin-bottom: 10px;
 		}
 		a {
 			font-style: italic;
 		}
 	}
-	.comment-author-link a {
+	.comment-author-link {
 		font-weight: bold;
 		font-style: normal;
 	}
