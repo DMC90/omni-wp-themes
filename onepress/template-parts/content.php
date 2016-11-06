@@ -33,7 +33,6 @@
                         ?>
                     </a>
                 </div>
-                <?php //  END OF CUSTOM CHANGE ?>
 
 		<div class="entry-excerpt">
 			<?php
@@ -45,6 +44,11 @@
 					'after'  => '</div>',
 				) );
 			?>
+		</div>
+		<div class="read-more-container">
+			<div class="read-more-button">
+				<a href="<?php echo esc_url( get_permalink() ); ?>">READ MORE</a>
+			</div>
 		</div><!-- .entry-content -->
 	</div>
 

@@ -752,7 +752,7 @@
 .section-news, .archive, .blog {
 
 	.list-article {
-		padding: 25px 0px;
+		padding: 15px 0px;
 		&:last-of-type {
 		}
 	}
@@ -799,6 +799,28 @@
 		margin-bottom: 0px;
                 float: left;
                 text-align: justify;
+	}
+	.read-more-container {
+                display: inline-block;
+		margin-top: 10px;
+		.read-more-button {
+			padding: 5px 20px 5px 20px;
+                        border: 1px solid $black;
+			-webkit-transition: background-color 0.5s, border 0.5s;
+			-moz-transition:    background-color 0.5s, border 0.5s;
+			-ms-transition:     background-color 0.5s, border 0.5s;
+			-o-transition:      background-color 0.5s, border 0.5s;
+			transition:         background-color 0.5s, border 0.5s;
+			a, a:hover {
+				text-decoration: none;
+                                color: $heading;
+			}
+		}
+		.read-more-button:hover {
+			background-color: rgba(190,190,190,1);
+			border: 1px solid white;
+                        cursor: pointer;
+		}
 	}
 }
 
