@@ -3,10 +3,11 @@
 /* Header
 ------------------------------*/
 .site-header {
-  line-height: 75px;
+  line-height: 50px;
   position: relative;
   width: 100%;
-  background: #FFFFFF;
+  background: #000000;
+  opacity: 0.92;
   z-index: 99;
   -webkit-transition: all 1s ease-out; /* Safari */
   transition: all .5s ease-out;
@@ -70,15 +71,16 @@
     margin: 0px;
     line-height: 1;
     font-family: $font_heading;
-    font-size: 23px;
+    font-size: 26px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #000000;
+    color: $white;
     display: initial;
     vertical-align: middle;
-    font-weight: 600;
+    font-weight: 100;
     &:hover {
       text-decoration: none;
+      color: $hover-gray;
     }
   }
   .site-title {
@@ -217,18 +219,18 @@
   }
 
   a {
-    color: #333333;
+    color: $white;
     font-family: $font_heading;
     padding-left: 17px;
     padding-right: 17px;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 100;
     text-transform: uppercase;
     text-decoration: none;
     zoom: 1;
     letter-spacing: 1px;
     &:hover {
-      color: $primary;
+      color: $hover-gray;
     }
   }
   ul li {
@@ -236,13 +238,13 @@
     a {
       border-top: 1px solid $border;
       padding: 8px 18px;
-      color: #999999;
+      color: $white;
       font-size: 13px;
       text-transform: none;
       background: #ffffff;
       letter-spacing: 0;
       &:hover {
-        color: $primary;
+        color: $hover-gray;
       }
     }
   }
@@ -261,7 +263,7 @@
   }
 
   > li:hover > a {
-
+    color: $hover-gray;
   }
   // > li.current-menu-item, > li.current-menu-ancestor {
   //     > a {
@@ -354,7 +356,7 @@
     a {
       color: $text;
       &:hover {
-        color: #000000;
+        color: $hover-gray;
       }
     }
     .nav-toggle-subarrow {
