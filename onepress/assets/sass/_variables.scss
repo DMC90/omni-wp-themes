@@ -6,9 +6,10 @@
 //--------------------------------------------------------
 
 // Text colors
-$text: 			#777777;
+$text: 		#777777;
 $heading:       #333333;
 $black:         #333333;
+$white:         #fff;
 
 // Active color
 $primary: 		#03c4eb;
@@ -38,6 +39,9 @@ $gutter2: 		30px;
 
 //Baseline
 $base: 			20px;
+
+//Buttons
+$button-background: rgba(47,46,46,1);
 
 // Mixins
 //--------------------------------------------------------

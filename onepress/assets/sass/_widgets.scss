@@ -38,13 +38,18 @@
         > label {
                 display: block;
         }
-	.search-field {
+	.search-field, .search-field:focus {
+		@include rem('padding', 5px 7px);
 		width: 100% !important;
-		@include rem('padding', 10px 15px);
+		outline: none;
 	}
 	.search-submit {
+		background: $button-background;
 		padding: 12px 23px 12px;
 		width: 100%;
+                border-radius: 0;
+                color: $white;
+		font-weight: 100;
 	}
 }
 
